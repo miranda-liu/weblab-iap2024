@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
+:root {
+  --purple: #b039ffb4;
+  --grey: #f7f7f7;
+  --white: #fff;
+  --xs: 4px;
+  --s: 8px;
+  --m: 16px;
+  --l: 24px;
+}
+
+.NavBar-container {
+  padding: var(--s) var(--m);
+  background-color: var(--purple);
+}
+
+.NavBar-title {
+  color: var(--white);
+  font-size: 1.2em;
+}
