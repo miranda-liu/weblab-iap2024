@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* advanced selectors */
+/* descendant selector = space */
+/* .container div{ */
+  /* font-size: 20px; */
+/* } */
+
+/* child selector = > */ 
+/* .container > div {
+  font-size: 30px;
+} */
+
+/* selects single element directly after another specific element = + */
+/* #c1 + div {
+  color: red;
+} */
+
+/* general sibling selection = ~ */
+/* selects all elements after another specific element */
+
+/* #c1 ~ div {
+  color: blueviolet;
+} */
+
+/* .container {
+  display: grid;
+  grid-template-columns: 100px 100px;
+} */
+
+/* visibility */
+
+/* .container {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  overflow: auto;
+} */
+
+
+/* animations */
+/* @keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.container{
+  animation: fadeIn;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-timing-function: ease-out;
+} */
+
+/* CSS Libraries: tailwind */
+/* a utility-first CSS framework utilizing pre-made classes, lets you write css in same file as html */

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- @type {import('tailwindcss').Config} -->
+<!-- <div class="container"> -->
+<!-- <section class="child" id="c1"/>
+    <div>subchild</div>
+
+  </section> -->
+<!-- <div class="child" id="c1">child1</div>
+  <div class="child" id="c2">child2</div>
+  <div class="child" id="c3">child3</div>
+  <div class="child" id="c4">child4</div> -->
+
+<!-- <p>the quick brown fox jumps over the lazy dog </p> -->
+
+<!-- </div> -->
+
+<!-- bg-gray-900 = background w gray 900 color
+w-full = width is 100%
+p-4 = padding w 4rem = 16px on all 4 sides -->
+<html>
+<head>
+  <title>Catbook</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+  <section class="w-full bg-gray-900 p-4">
+    <div class="flex justify-between">
+      <!-- flex = stack elements as rows
+      justify-between = space btwn elements -->
+      <p class="text-white">Close</p>
+      <p class="font-semibold text-blue-400">Drafts</p>
+    </div>
+  
+    <div class="flex h-48 gap-4 py-8">
+      <div class="aspect-square h-16 w-16 rounded-full bg-blue-400"></div>
+      <textarea class="mt-4 w-full bg-transparent text-2xl text-white focus:outline-none" placeholder="What is happening?!"></textarea>
+    </div>
+  
+    <p class="font-bold text-blue-400">Everyone can reply</p>
+  
+    <hr class="my-4 border-gray-500" />
+  
+    <nav class="flex items-center justify-between">
+      <div class="flex gap-4 text-blue-400">
+        <p>Image</p>
+        <p>GIF</p>
+        <p>Poll</p>
+        <p>Emoji</p>
+        <p>Location</p>
+      </div>
+      <button class="rounded-full bg-blue-400 px-4 py-2 font-bold text-white">Post</button>
+    </nav>
+  </section>
+
+</body>
+
+</html>
+
+  
